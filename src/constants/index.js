@@ -46,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Front End Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "3JS Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "React Developer",
     icon: creator,
   },
 ];
@@ -105,10 +105,6 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
@@ -116,54 +112,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    
+    title: "Wordpress Developer",
+    company_name: "Conversion Pro LLP",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Feb 2025 - May 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developed an eCommerce site (languageshoes.com) using WordPress, Elementor, AJAX, HTML, and CSS.",
+      "Worked closely with Figma designers to bring high-fidelity UI into functional web page. ",
+      "Improved site speed and performance, resulting in faster loading and better UX.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+  {
+    title: "PHP Developer",
+    company_name: "Webs Jyoti",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Jan 2025 - Jan 2025",
+    points: [
+      "Explored ChatGPT API integration and experimented with basic AI customization workflows. ",
+      "Assisted in building and styling a functional login page using PHP and HTML/CSS.  ",
+      "Gained exposure to backend logic and user authentication systems.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    
+    title: "Website Developer",
+    company_name: "DIGI MARK INDIA",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "April 4, 2024 - July 30, 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Contributed to building and styling pages for digimarkindia.com alongside their in-house team",
+      "Used HTML, CSS, and JavaScript to improve UI responsiveness and mobile compatibility.",
+      "Improved UI consistency across devices by optimizing custom CSS layouts.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -172,88 +157,88 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "The website looks clean and works well on all screen sizes. Communication was smooth throughout the project.",
+    name: "X",
     designation: "CFO",
-    company: "Acme Co",
+    company: "X",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "Solid frontend work delivered on time. Helped us improve the UI and fix some responsiveness issues.",
+    name: "Y",
     designation: "COO",
-    company: "DEF Corp",
+    company: "Y",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Got our WordPress site up and running without issues. Everything was well-organized and easy to manage.",
+    name: "Z",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Z",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "3D ANIMATION",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built an interactive 3D animation using Three.js with smooth transitions and effects.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "3JS",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://krishnam02.github.io/3JS/",
   },
   {
-    name: "Job IT",
+    name: "LANGUAGE SHOES",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " Build an E-Commerce website using word-press & Shoptimizer theme.",
     tags: [
       {
-        name: "react",
+        name: "WORD-PRESS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "ELEMENTOR",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "AJAX",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://languageshoes.com/",
   },
   {
-    name: "Trip Guide",
+    name: "3D PORTFOLIO",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Build an 3D portfolio showcasing my projects and skills.",
     tags: [
       {
-        name: "nextjs",
+        name: "REACT",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "TAILWIND",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "3JS",
         color: "pink-text-gradient",
       },
     ],

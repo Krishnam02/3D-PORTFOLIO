@@ -47,11 +47,18 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Hey! I’m Krishnam Lahoti, a skilled frontend developer and WordPress enthusiast, passionate about building
+        scalable, user-friendly, and visually striking web experiences.
+
+        I have hands-on experience with JavaScript, TypeScript, and frameworks like React, Next.js, and Three.js —
+        blending performance with creativity. I also bring solid expertise in WordPress, including custom themes,
+        Elementor builds, and responsive design.
+
+        Whether it’s a dynamic frontend interface or an immersive 3D experience, I collaborate closely with clients to
+        create real-world solutions that don’t just function — they shine.<br>
+        </br>
+
+        Let’s team up and bring your ideas to life, one pixel at a time.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
