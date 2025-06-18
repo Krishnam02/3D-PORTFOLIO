@@ -243,7 +243,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://krishnam02.github.io/3D-PORTFOLIO/",
   },
 ];
 
